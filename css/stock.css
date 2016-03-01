@@ -1,0 +1,130 @@
+.stock-content{
+  margin: 2em 1em;
+
+}
+.stock-content h1{ margin: 10px auto;}
+.stock-content .stock-name{
+    font-family: "微软雅黑";
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #555;
+    padding-top: 1em;
+}
+.stock-content .price-box{
+  font-size: 1.5rem;
+}
+.stock-content .price-box div{
+  width: 30%!important;
+  float: left; text-align: center;
+}
+.stock-content .price-box .stock-price{
+  text-align: left;
+}
+.reds{
+  color: #ff0000;
+}
+
+.greens{
+  color: green !important;
+}
+
+stock-content .stock-price.default{
+  color: #666;
+}
+.stock-content  .ext-info{
+  clear: both;
+  font-size: 1em;
+  text-align: left;
+  padding: 10px 0;
+  margin: 20px 0 auto;
+  color: #555;
+  overflow: hidden;;
+  border-top: 1px solid #eee;
+}
+.stock-content  .ext-info div{
+  margin: 0!important; padding: 0 !important;
+  margin-bottom: 10 !important;
+}
+.cl{ clear:both; height: 1px; overflow: hiddin}
+
+
+
+.a-list .item>.content{
+    line-height:2em!important;
+    color: #999;
+    font-size: 12px!important;
+    margin: 0 .5em!important;
+    padding: 0 .5em;
+    border-radius: 0px;
+}
+.a-list .item>.content>.content-a{
+  position:absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.999);
+  width: 100%;
+}
+
+.a-list .item>.content .description{
+    line-height:2.1em!important;
+    color: #9d9d9d;
+    font-size: 12px!important;
+}
+
+.a-list .item>.label>img{
+  margin-top: 0.5em;
+}
+
+.a-list .item.event{
+    position: relative;
+    background: #FFF;
+    margin-bottom: .6em;
+    border-bottom: 1px solid #ededed;
+    padding-top: .4em;
+}
+
+.a-list .item>.content a.header{
+    line-height:1.2em!important;
+    color: #333!important;
+    font-size: 1.3rem!important;
+    font-family:"微软雅黑";
+    font-weight: 500;
+    overflow: hidden;
+    margin-bottom: 0.4em;
+
+}
+
+.a-list .item>.content .extra .label{
+  background:#FFF;
+  color: #999;
+    font-family:"微软雅黑";
+    font-weight: 300;
+    font-size: 12px;
+    border: 1px solid #DDD;
+    padding: 0.2em .6em;
+}
+
+.a-list .item>.label>img{
+  margin-top: 0.5em;
+}
+
+
+.a-list .item>.content>.header{
+  font-size: 13px!important
+}
+
+.a-list .item>.content .summary{
+  font-size: 12px; color:#555;
+  font-family:"微软雅黑";
+  font-weight: 300;
+  line-height: 1.6em;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.a-list .ui.label{
+  padding:0.3833em 0.633em ;
+}
+
+#list-tab{
+  border-top: 1px solid #ddd;
+  background: #FFF;
+}

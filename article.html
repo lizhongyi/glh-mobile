@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="js/dist/semantic.css" media="screen" charset="utf-8">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+    <script src="js/dist/semantic.js" charset="utf-8"></script>
+    <script src="js/dist/components/api.js" charset="utf-8"></script>
+    <script src="js/public/common.js" charset="utf-8"></script>
+    <script src="js/public/ApiService.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/layout.css" media="screen"  charset="utf-8">
+    <link rel="stylesheet" href="css/article.css" media="screen"  charset="utf-8">
+
+
+
+
+  </head>
+  <body style="display:none">
+    <header>
+      <div id="index-menu" class="ui top fixed small  three  item    menu">
+      <a href="/glhm" class="ui white item"><i class="angle left icon"></i><b>格隆汇</b></a>
+      <div id="home" class="ui dropdown  item">
+
+      </div>
+
+      <a href="javascript:goDownApp()" class="ui item small blue button" ><span class="ui blue label"><i class="download icon"></i>安装app</span></a>
+
+      </div>
+    </header>
+  <div class="main" style=" padding:0.0em;">
+
+
+  <div class="author" id="author">
+    <div class="ui middle aligned divided list">
+  <div class="item">
+
+    <img class="ui avatar image" src="">
+    <div class="content" id="nick-name"></div>
+    <div class="right floated content">
+          <a href="javascript:goDownApp()" class="ui small basic teal label ">+关注</a>
+        </div>
+  </div>
+
+</div>
+</div>
+  <div class="ui  content " id="article-content">
+      <h1 class="content-title">
+      </h1>
+      <div class="create-date">
+
+      </div>
+      <div id="content-box" class="content-box">
+
+      </div>
+
+      <!-- 文章标签 -->
+      <div class="tags" style="text-align:center">
+        <span class="ui small "><i class=" tag icon"></i>格隆汇</span> <span class="ui small "><i class=" tag icon"></i>热点</span>
+      </div>
+
+       <!-- 喜欢等操作 -->
+       <div class="ui share">
+
+          <div class="column" style="text-align:center">
+              <a href="javascript:goDownApp()" class="ui small button"><i class="empty heart icon"></i>喜欢</a>
+              <a href= "javascript:goDownApp()" class="ui small button"><i class="empty star icon"></i>收藏</a>
+              <a id="share-btn" class="ui small button"><i class="share alternate icon"></i>分享</a>
+          </div>
+       </div>
+
+
+
+  </div>
+
+  <!-- 延伸阅读 -->
+  <div class="more-read">
+    <div class="ui">
+    <h3  class=" ui bottom ribbon- large teal label"><i class="file text outline icon"></i>延伸阅读</h3>
+  </div>
+    <div class="ui recommend list">
+    </div>
+  </div>
+  <!--文章评论--->
+  <div class="comment-box" style="margin-top:20px;">
+      <div class="ui">
+    <h3 id="load-comment-btn"onclick="javascript:goDownApp()" class="ui bottom ribbon- large teal label"><i class="pencil icon"></i>写评论　 <span id="comment-count"></span> </h3>
+      </div>
+
+    <div id="comment-list" class="ui comments ">
+
+    <div>
+  </div>
+
+</div>
+
+
+  <footer>
+    <div class=" bdsharebuttonbox">
+     <div class="share-link">
+    <div id="share-bar" class="footer-menu ui bottom fixed  four  item  icon  menu " style="display:none">
+
+      <a href="javascript:;" class="item bds_sqq" data-cmd="sqq" title="">
+        <i class="large qq icon"></i>
+
+      </a>
+
+    <a href="javascript:;" class="pink  item bds_weixin " data-cmd="weixin">
+      <i class="large wechat icon"></i>
+
+    </a>
+
+
+    <a href="javascript:;" class="blue  item bds_tsina" data-cmd="tsina">
+      <i class="large weibo  icon"></i>
+
+    </a>
+
+    <a href="javascript:;" class="blue  item bds_twi" data-cmd = "twi">
+      <i class="large twitter icon"></i>
+
+    </a>
+
+  </div>
+
+    </div>
+  </div>
+    </div>
+  </footer>
+
+
+
+ <script src="js/article/article.js" charset="utf-8"></script>
+ <script>
+ with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+ <script>
+var _hmt = _hmt || [];
+(function() {
+ var hm = document.createElement("script");
+ hm.src = "//hm.baidu.com/hm.js?99cf2fc901f78474af7cf7a5b565deac";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  </body>
+</html>

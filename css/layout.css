@@ -1,0 +1,38 @@
+body{
+  /*background: #fefefe;*/
+}
+.main{
+  max-width: 560px;
+  margin: 0 auto;
+  margin-top: 4em;
+  padding-bottom: 50px;
+
+  padding: 0.0em 0em;
+
+}
+footer{
+  font-size:10px;
+}
+
+.no-radius{
+    border-radius: 0px;
+}
+
+#index-menu{
+  background: rgba(34,174,230,.9);
+  color: #333;
+
+}
+
+#index-menu a{
+  color: #FFF;
+  font-weight: 600;
+
+}
+#index-menu.ui.menu .item:before{
+  width: 0px;
+}
+
+#home .ui.dropdown.selection{
+  min-width:8em !important;
+}

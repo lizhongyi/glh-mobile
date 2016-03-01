@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>格隆汇-股票</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="js/dist/semantic.css" media="screen" charset="utf-8">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+    <script src="js/dist/semantic.js" charset="utf-8"></script>
+    <script src="js/dist/components/api.js" charset="utf-8"></script>
+    <script src="js/public/common.js" charset="utf-8"></script>
+    <script src="js/public/ApiService.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/layout.css" media="screen"  charset="utf-8">
+    <link rel="stylesheet" href="css/stock.css" media="screen"  charset="utf-8">
+
+
+  </head>
+  <body>
+    <header>
+      <div id="index-menu" class="ui top fixed small  three  item    menu">
+      <a href="/glhm" class="ui white item"><i class="angle left icon"></i><b>格隆汇</b></a>
+      <div id="home" class="ui  item" style="color:#FFF">
+      股票详情
+      </div>
+
+      <a href="javascript:goDownApp()" class="ui item small blue button" ><span class="ui blue label"><i class="download icon"></i>安装app</span></a>
+
+      </div>
+    </header>
+  <div class="main" style="display:non1e">
+
+    <!-- 股票行情 -->
+    <div class="ui stock-content">
+      <h1> <span class="stock-name"></span></h1>
+        <div class="ui  price-box">
+         <div class=" stock-price"></div>
+         <div class=" stock-change"></div>
+         <div class=" stock-netchange"></div>
+       </div>
+       <div class="cl"></div>
+       <!---详细数据--->
+       <div class="ui five column grid ext-info">
+
+      </div>
+
+      <!-- tab -->
+      <div id="list-tab" class="ui top four item secondary pointing menu">
+      <a  href="javascript:void(0)" class="item active article-tab-btn" data-tab="精华">精华</a>
+      <a  href="javascript:void(0)" class="item talk-tab-btn" data-tab="讨论">讨论</a>
+      <a  href="javascript:void(0)" class="item f10-tab-btn " data-tab="f10">f10</a>
+        <a  href="javascript:void(0)" class="item notice-tab-btn " data-tab="公告">公告</a>
+     </div>
+     <div class="ui small bottom tab active article" data-tab="精华">
+       <div class="ui   list a-list ">
+
+       </div>
+     </div>
+     <div class="ui bottom tab talk" data-tab="讨论">
+       <div class="ui   list a-list ">
+
+       </div>
+     </div>
+
+     <div class="ui bottom tab f10  " data-tab="f10">
+       <iframe frameborder="0" src="" id="f10iframe" width="100%" height="4200" scroll="no"></iframe>
+     </div>
+     <div class="ui bottom tab notice" data-tab="公告">
+       <div class="ui   list a-list ">
+
+       </div>
+     </div>
+    </div>
+
+
+  <!-- <div id="list-loader" class="ui active loader"></div> -->
+
+
+
+
+<script src="js/stock/stock.js" charset="utf-8"></script>
+
+
+  </body>
+</html>
